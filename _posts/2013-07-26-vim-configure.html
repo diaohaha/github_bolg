@@ -14,24 +14,24 @@ title: vim configure
 
 <p>用来完成bundle的安装以及插件的测试。</p>
 
-<p>set nocompatible  
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
+<p>set nocompatible </br> 
+filetype off</br>
+set rtp+=~/.vim/bundle/vundle/</br>
+call vundle#rc()</br>
+Bundle 'gmarik/vundle'</br>
 以上为基本的设置</p>
 
 <p>然后为我的插件设置，只要将插件按一定的格式填写，bundle将会帮你自动下载.</p>
 
-<p>" original repos on github （Github网站上非vim-scripts仓库的插件，按下面格式填写）  
-Bundle 'tpope/vim-fugitive'  
-Bundle 'Lokaltog/vim-easymotion'  
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}  
-Bundle 'tpope/vim-rails.git'  
-" vim-scripts repos  （vim-scripts仓库里的，按下面格式填写）  
-Bundle 'L9'  
-Bundle 'FuzzyFinder'  
-" non github repos   (非上面两种情况的，按下面格式填写)  
+<p>" original repos on github （Github网站上非vim-scripts仓库的插件，按下面格式填写）  </br>
+Bundle 'tpope/vim-fugitive'  </br>
+Bundle 'Lokaltog/vim-easymotion'  </br>
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'} </br> 
+Bundle 'tpope/vim-rails.git'  </br>
+" vim-scripts repos  （vim-scripts仓库里的，按下面格式填写）  </br>
+Bundle 'L9'  </br>
+Bundle 'FuzzyFinder'</br>  
+" non github repos   (非上面两种情况的，按下面格式填写)  </br>
 Bundle 'git://git.wincent.com/command-t.git'  </p>
 
 <p>filetype plugin indent on     " required!   /** vimrc文件配置结束 **/  </p>
