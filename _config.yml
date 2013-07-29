@@ -1,1 +1,3 @@
 baseurl: /github_bolg
+markdown: rdiscount
+pygments: true
