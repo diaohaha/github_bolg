@@ -1,14 +1,12 @@
 ---
 layout: post
-title: git use
+title: git使用的几点建议
 ---
 
 <h2>{{ page.title }}</h2>
-
-<p>is not same with the svn</p>
-
-<p>the commit is just commit to change to you own repo.</p>
-
-<p>you must use the push to put it in the git</p>
+<h3>1.很有必要找一份完善的文档看一下</h3>
+<p>而不是只了解其中简单的几条命令,可以参考这个:<a href="http://www.cnblogs.com/welfear/archive/2010/05/24/1742614.html">http://www.cnblogs.com/welfear/archive/2010/05/24/1742614.html</a></p>
+<h3>2.与svn的区别</h3>
+<p>对于使用过svn的人来说，只要掌握co，ci，up，add基本上就可以应付了，但是git的命令要相对多一些。clone，add ., pull, push, commit, rm. 而且A：commit只是提交到本地的库，还需要push来上传到git。B：千万不要直接删除库里的文件，要删除时用git rm，不然会很麻烦。<p>
 
 <p>{{ page.date | date_to_string }}</p> 
