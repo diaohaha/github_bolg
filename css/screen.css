@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-image: url(/image/niuniu.jpg);  
+  background-image: url(../image/beijing.jpg);  
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
